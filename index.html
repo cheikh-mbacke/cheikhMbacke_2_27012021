@@ -9,18 +9,19 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" media="all" href="css/base.css" />
         <link rel="stylesheet" type="text/css" media="all" href="css/header.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="css/firstSection.css" />
         <title>Reservia - Accueil</title>
     </head>
 
     <body>
 
 <!-- l'en-tête-->
-        <header class="header header--flex-row">
+        <header class="header flex-row">
             <div class="header__logo">
                 <a href="index.html"><img src="images/logo/logo_reservia.png" alt="image logo"></a>
             </div>
             <nav class="header__nav">
-                <ul class="header--flex-row">
+                <ul class="flex-row">
                     <li><a href="#" class="header__nav__link header__nav--BlueColor">Hébergement</a></li>
                     <li><a href="#" class="header__nav__link">Activité</a></li>
                     <li><a href="#" class="header__nav__link header__nav--BlueColor">S'inscrire</a></li>
@@ -36,38 +37,43 @@
             <section>
 
                 <!--champ de recherche-->
-                <article>
-                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                    <p>En plein centre de ville ou en pleine nature</p>
-                    <form action="#">
-                        <label for="recherche"><i class="fas fa-map-marker-alt"></i></label>
-                        <input type="text" id="recherche" placeholder="Marseille, France">
-                        <input type="submit" value="Rechercher">
+                <article class="heading">
+                    <h1 class="heading__h1">Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <h5>En plein centre de ville ou en pleine nature</h5>
+                    <form action="#" class="heading__form">
+                        <label for="recherche"  class="heading__form--mapMarker"><i class="fas fa-map-marker-alt"></i></label>
+                        <input class="heading__form__searchField heading__form--padding heading__form__searchField--placeholder" type="text" id="recherche" placeholder="Marseille, France">
+                        <input class="heading__form--padding heading__form__submit" type="submit" value="Rechercher">
                     </form>
                 </article>
                 <!--Fin champ de recherche-->
                
                 <!--Système de filtre-->
-                <article>
-                    <h2>Filtre</h2>
-                    <div>
-                        <p><i class="fas fa-money-bill-wave"></i> Economique</p>
+                <article class="filter">
+                    <h2 class="filter__h2">Filtres</h2>
+                    <div class="filter-btn">
+                        <p class="filter__btn--icone"><i class="fas fa-money-bill-wave filter__btn--iconeCenter"></i></p>
+                        <p class="filter__btn--text filter__btn--text1">Economique</p>
                     </div>
-                    <div>
-                        <p><i class="fas fa-child"></i> Familial</p>
+                    <div class="filter-btn">
+                        <p class="filter__btn--icone"><i class="fas fa-child filter__btn--iconeCenter"></i></p>
+                        <p class="filter__btn--text filter__btn--text2">Familial</p>
                     </div>
-                    <div>
-                        <p><i class="fas fa-heart"></i> Romantique</p>
+                    <div class="filter-btn">
+                        <p class="filter__btn--icone"><i class="fas fa-heart filter__btn--iconeCenter"></i></p>
+                        <p class="filter__btn--text filter__btn--text3">Economique</p>
                     </div>
-                    <div>
-                        <p><i class="fas fa-dog"></i> Animaux autorisés</p>
+                    <div class="filter-btn">
+                        <p class="filter__btn--icone"><i class="fas fa-dog filter__btn--iconeCenter"></i></p>
+                        <p class="filter__btn--text">Animaux autorisés</p>
                     </div>
                 </article>
                 <!-- Fin Système de filtre-->
 
                 <!--Indicateur de disponibilité-->
-                <article>
-                    <p><i class="fas fa-exclamation"></i> Plus de 500 logements sont disponibles dans cette ville</p>
+                <article class="NombreResultat">
+                    <p class="NombreResultat__icone"><i class="fas fa-info"></i></p>
+                    <p class="NombreResultat__text">Plus de 500 logements sont disponibles dans cette ville</p>
                 </article>
                 <!--Fin Indicateur de disponibilité-->
 

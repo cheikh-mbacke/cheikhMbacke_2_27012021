@@ -5,13 +5,10 @@
 *                                                          *
 ************************************************************
 ***********************************************************/
-.header--flex-row{
+.flex-row{
     display: flex;
     justify-content: space-between;
     margin-bottom: 2em;
-}
-.header{
-    padding: 0 2em 0 2em;
 }
 
 .header__logo{
