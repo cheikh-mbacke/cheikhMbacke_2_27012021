@@ -5,11 +5,12 @@
 /* base font-size corresponds to 10px and is adapted to rem unit */
 html {
 	font-size: 62.5%;
+	
 }
 body {
 	background-color: #fff;
-  color: #000;
-  font-family: 'Open Sans', "Century Gothic", helvetica, arial, sans-serif;
+  	color: #000;
+  	font-family: 'Open Sans', "Century Gothic", helvetica, arial, sans-serif;
 	font-size: 1.4em; /* equiv 14px */
 	line-height: 1.5; /* adapt to your design */
 	box-sizing: border-box;
@@ -102,7 +103,6 @@ figure,
 label {
 	margin: 0;
 	padding: 0;
-	padding: 0 2em 0 2em;
 }
 ul,
 ol {

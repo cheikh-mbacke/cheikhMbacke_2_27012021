@@ -10,6 +10,8 @@
         <link rel="stylesheet" type="text/css" media="all" href="css/base.css" />
         <link rel="stylesheet" type="text/css" media="all" href="css/header.css" />
         <link rel="stylesheet" type="text/css" media="all" href="css/firstSection.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="css/secondSection.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="css/footer.css" />
         <title>Reservia - Accueil</title>
     </head>
 
@@ -37,7 +39,7 @@
             <section>
 
                 <!--champ de recherche-->
-                <article class="heading">
+                <div class="heading">
                     <h1 class="heading__h1">Trouvez votre hébergement pour des vacances de rêve</h1>
                     <h5>En plein centre de ville ou en pleine nature</h5>
                     <form action="#" class="heading__form">
@@ -45,7 +47,7 @@
                         <input class="heading__form__searchField heading__form--padding heading__form__searchField--placeholder" type="text" id="recherche" placeholder="Marseille, France">
                         <input class="heading__form--padding heading__form__submit" type="submit" value="Rechercher">
                     </form>
-                </article>
+                </div>
                 <!--Fin champ de recherche-->
                
                 <!--Système de filtre-->
@@ -81,67 +83,86 @@
             <!--Fin Première section-->
 
             <!--Deuxième section -->
-            <section>
-                <div>
-                    <h2>Les plus populaires</h2>
-                    <div><i class="fas fa-chart-line"></i></div>
+            <section class="mostPopular">
+                <div class="flex-row">
+                    <h2 class="mostPopular__heading">Les plus populaires</h2>
+                    <div class="mostPopular__heading mostPopular__icone"><i class="fas fa-chart-line"></i></div>
                 </div>
 
                 <!-- Informations suplémentaires-->
-                <aside>
+                <aside class="mostPopular__aside">
 
                     <!--Affichage des logements les plus populaires-->
-                    <article>
-                        <a href="#">
-                            <figure>
-                                <img src="#" alt="présentation logement">
-                                <figcaption>
-                                <strong>Hôtel Le soleil du matin</strong><br />
-                                        Nuit à partir de <strong>128&euro;</strong>
+                    <article class="mostPopular__article" >
+                        <a href="#" class="mostPopular__link">
+                            <figure class="mostPopular__figure">
+                                <img class="mostPopular--img" src="images/hebergements/4_small/tyyy.jpg" alt="présentation logement">
+                                <figcaption class="mosrPopular__figacaption">
+                                    <div>
+                                        <p>
+                                            <strong class="mostPopular__heading">Hôtel Le soleil du matin</strong><br />
+                                            <span class="mostPopular__price">Nuit à partir de </span>
+                                            <strong class="mostPopular__heading">128&euro;</strong>
+                                        </p>
+                                    </div>
+                                    <div class="mostPopular_stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
                                 </figcaption>                  
                             </figure>
-                            <div>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
                         </a>
                     </article>
 
-                    <article>
-                        <a href="#">
-                            <figure>
-                                <img src="#" alt="image hébergement">
-                                <figcaption>
-                                    <strong>Au coeur de l'eau Chambrees d'hôteles</strong><br />
-                                    Nuit à partir de <strong>71&euro;</strong>
+                    <article class="mostPopular__article">
+                        <a href="#" class="mostPopular__link">
+                            <figure class="mostPopular__figure">
+                                <img class="mostPopular--img" src="images/hebergements/4_small/trfgyuhi.jpg" alt="image hébergement">
+                                <figcaption class="mosrPopular__figacaption">
+                                    <div>
+                                        <p>
+                                            <strong class="mostPopular__heading">Au coeur de l'eau<br /> Chambrees d'hôteles</strong><br />
+                                             <span class="mostPopular__price">Nuit à partir de </span>
+                                             <strong class="mostPopular__heading">71&euro;</strong>
+                                        </p>
+                                    </div>
+                                    <div class="mostPopular_stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="disabled__star fas fa-star"></i>
+                                    </div>
                                 </figcaption>                  
                             </figure>
-                            <div>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
                         </a>
                     </article>
 
-                    <article>
-                        <a href="#">
-                            <figure>
-                                <img src="#" alt="image hébergement">
-                                <figcaption>
-                                    <strong>Hôtel Tout bleu et Blanc</strong><br />
-                                    Nuit à partir de <strong>68&euro;</strong>
-                                </figcaption>                  
+                    <article class="mostPopular__article">
+                        <a href="#" class="mostPopular__link">
+                            <figure class="mostPopular__figure">
+                                <img class="mostPopular--img" src="images/hebergements/4_small/blbla.jpg" alt="image hébergement">
+                                <figcaption class="mosrPopular__figacaption">
+                                    <div>
+                                        <p>
+                                            <strong class="mostPopular__heading">Hôtel Tout bleu et Blanc</strong><br />
+                                            <span class="mostPopular__price">Nuit à partir de </span>
+                                            <strong class="mostPopular__heading">68&euro;</strong>
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="mostPopular_stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="disabled__star fas fa-star"></i>
+                                    </div> 
+                                </figcaption>              
                             </figure>
-                            <div>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
                         </a>
                     </article>
 
@@ -319,26 +340,26 @@
             <footer>
                 <nav>
                     
-                    <article>
-                        <h3>A propos</h3>
-                        <ul>
+                    <article class="quick__link">
+                        <h3 class="footer__heading">A propos</h3>
+                        <ul class="listStyle">
                             <li><a href="#">Fonctionnement du site</a></li>
                             <li><a href="#">Conditions générales de vente</a></li>
                             <li><a href="#">Données et confidentialités</a></li>
                         </ul>
                     </article>
 
-                    <article>
-                        <h3>Nos hébergements</h3>
-                        <ul>
+                    <article class="quick__link">
+                        <h3 class="footer__heading">Nos hébergements</h3>
+                        <ul class="listStyle">
                             <li><a href="#">Charte qualité</a></li>
                             <li><a href="#">Soumettre votre hotel</a></li>
                         </ul>
                     </article>
 
-                    <article>
-                        <h3>Assistance</h3>
-                        <ul>
+                    <article class="quick__link">
+                        <h3 class="footer__heading">Assistance</h3>
+                        <ul class="listStyle">
                             <li><a href="#">Centre d'aide</a></li>
                             <li><a href="#">Nous contacter</a></li>
                         </ul>

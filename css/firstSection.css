@@ -1,4 +1,7 @@
 /*************************************************************/
+.spacePadding{
+    padding: 0 2em 0 2em;
+}
 .heading{
     margin-bottom: 2.2em;
 }

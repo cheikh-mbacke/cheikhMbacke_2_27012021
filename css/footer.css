@@ -1,0 +1,23 @@
+footer > nav{
+    background-color: #F2F2F2;
+    display: flex;
+    padding: 2.4em 0 2.4em 0;
+}
+.quick__link{
+    margin-left: 4em;
+    margin-right: 15em;
+}
+.footer__heading{
+    font-size: 1.7em;
+    font-weight: bolder;
+}
+.listStyle{
+    list-style: none;
+    padding-left: 0;
+    line-height: 2.2em;
+}
+.listStyle > li > a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
