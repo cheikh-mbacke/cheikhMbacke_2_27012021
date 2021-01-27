@@ -5,9 +5,10 @@
 *                                                          *
 ************************************************************
 ***********************************************************/
-header{
+header, main{
     padding: 0 2em 0 2em;
 }
+
 .flex-row{
     display: flex;
     justify-content: space-between;

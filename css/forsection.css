@@ -1,0 +1,25 @@
+.forSection{
+    padding: 2.1em;
+}
+.activite__aside{
+    display: flex;
+    justify-content: space-between;
+}
+.activite__title{
+    margin-bottom: 1em;
+    font-size: 2em;
+    font-weight: 900;
+}
+.activitePort{
+    background-color: #FFF;
+    border-radius: 20px;
+    box-shadow:-3px 1px 10px #333333;
+}
+.activitePort2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.activite__heading{
+    padding: 0.9em;
+}

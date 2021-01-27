@@ -42,6 +42,9 @@
     font-size: 1.1em;
     font-weight: bolder;
 }
+.map{
+    margin-left: 0.8em;
+}
 .heading__form--mapMarker{
     display: inline-block;
     width: 0em;

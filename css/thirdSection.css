@@ -1,0 +1,38 @@
+.thirdSection{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 2.1em;
+    margin-bottom: 4em;
+}
+.thirdSection__heading{
+    margin-bottom: 1.5em;
+}
+.hebergement{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hebergement__resultat{
+    background-color: #FFF;
+    border-radius: 20px;
+    margin-bottom: 2em;
+    width: 32%; 
+}
+.hebergement__figure{
+    padding: 0.5em;
+}
+.hebergement__img{
+    border-radius: 20px 20px 0 0px;
+}
+.hebergement__figa{
+    padding: 1em 0 0 1em;
+}
+.showsPlus{
+    padding-left: 0.5em;
+}
+.showsPlus > a{
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
