@@ -1,0 +1,66 @@
+/**********************************************************
+************************************************************
+*                                                          *
+*            STYLE DU HEADER                               *
+*                                                          *
+************************************************************
+***********************************************************/
+.border-space{
+    padding: 0 3em 0 3em;
+}
+.navbar{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.navbar-brand{
+    display: inline-block;
+    /* border: 1px solid red; */
+}
+.navbar-brand > img{
+    max-width: 100%;
+}
+
+.navbar-nav{
+    display: flex;
+    /* border: 1px solid red; */
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.nav-menu-item{
+    padding: 0.4em 2em 0 2em;
+}
+.nav-menu-item-link{
+    /* border: 1px solid red; */
+    text-decoration: none; 
+    color: #000;
+}
+.nav-menu-item-link-active{
+    color: #0065FC;
+}
+.btn-outline{
+    display: block;
+    padding-top: 0.4em;
+    border: none;
+    background-color: inherit;
+    /* border: 1px solid red; */
+}
+.btn-outline-link{
+    text-decoration: none;
+    color: #0065FC;
+    font-size: 1.3em;
+    font-weight: bold; 
+}
+
+
+
+
+

@@ -3,20 +3,20 @@ footer > nav{
     display: flex;
     padding: 2.4em 0 2.4em 0;
 }
-.quick__link{
+.footer-quick-links{
     margin-left: 4em;
     margin-right: 15em;
 }
-.footer__heading{
+.footer-link-title{
     font-size: 1.7em;
     font-weight: bolder;
 }
-.listStyle{
+.footer-list-link{
     list-style: none;
     padding-left: 0;
     line-height: 2.2em;
 }
-.listStyle > li > a{
+.footer-list-link > li > a{
     text-decoration: none;
     color: black;
     font-size: 1.2em;

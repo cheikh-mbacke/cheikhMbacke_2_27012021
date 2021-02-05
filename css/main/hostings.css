@@ -1,0 +1,145 @@
+.hosting{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+#display-none{
+    display: none;
+}
+/* * * * * * * * * * * * * * * * * * * * * *  *
+*  Le résultat de recherche des hébérgement   *
+* * * * * * * * * * * * * * * * * * * * * * * */
+.hosting-results{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 1em;
+    padding-bottom: 3em;
+    width: 65%;
+}
+.hosting-main-title{
+    font-size: 2em;
+    font-weight: bolder;
+    margin-bottom: 0.8em;
+    padding-left: 0.8em;
+}
+.hosting-card-body-link{
+    text-decoration: none;
+}
+.hosting-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.hosting-card-body{
+    background-color: #FFF;
+    border-radius: 25px;
+    margin-bottom: 2em;
+    box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.75);
+    width: 30%;
+    padding-bottom: 1em;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 0.5s;
+    padding: 0.3em;
+}
+.hosting-card-body:hover{
+    transform: scale(1.1);
+}
+
+
+.hosting-card-img{
+    max-width: 100%;
+    border-radius: 20px 20px 0 0px;
+}
+.hosting-card-illustration{
+    padding: 1em 0 0 1em;
+}
+.hosting-card-title{
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: black;
+}
+.hosting-card-text{
+    font-size: 1.4em;
+    color: black;
+}
+.hosting-card-priceStyle{
+    display: inline-block;
+    vertical-align: super;
+}
+.hosting-card-stars{
+    color: #0065FC;
+    font-size: 1.4em;
+}
+.hosting-card-disabled_star{
+    color: #d9d9d9;
+}
+
+.show-more-results{
+    padding-top: 2em;
+    padding-left: 2em;
+}
+.show-more-results > a{
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+/* * * * * * * * * * * * * * * * * * * * * * *  *
+*  Fin résultat de recherche des hébérgements   *
+* * * * * * * * * * * * * * * * * * * * * * * * */
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Le résultat de recherche des hébérgements les plus populaires   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  */
+
+.popular-hostings{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flex-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.3em;
+}
+.popular-hosting-title{
+    font-size: 1.6em;
+    font-weight: bolder;
+    color: inherit;
+}
+.popular-hosting-icone{
+    cursor: pointer;
+}
+.popular-hosting-card{
+    margin-bottom: 1em;
+    background-color: #FFF;
+    border-radius: 20px;
+    padding-right: 3.2em;
+    box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.75);
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 0.5s;
+    padding: 0.2em;
+}
+.popular-hosting-card:hover{
+    transform: scale(1.1);
+}
+.popular-hosting-card-figure{
+    display: flex;
+}
+.popular-hosting-card-img{
+    max-width: 100%;
+    border-radius: 20px 0 0 20px;
+    margin-right: 1.5em;
+}
+.popular-hosting-card-illustration{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5em 0 0.5em 0;
+}

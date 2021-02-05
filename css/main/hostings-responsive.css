@@ -1,0 +1,101 @@
+@media screen and (max-width: 1400px){
+    .hosting-results{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 1260px){
+    .hosting{
+        flex-direction: column-reverse;
+    }
+    .hosting-results, .popular-hostings{
+        width: 100%;
+    }
+    .popular-hostings{
+        align-items: center;
+        margin-bottom: 2em;
+    }
+    .popular-hosting-card{
+        margin-bottom: 1.5em;
+        width: 65%;
+        height: 100%;
+    }
+    .flex-row{
+        margin-bottom: 2em;
+        align-self: stretch;
+    }
+    .hosting-main-title{
+        
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .hosting{
+        flex-direction: column-reverse;
+    }
+    .hosting-main-title{
+        font-size: 1.5em;
+        padding-left: 0;
+        text-align: center;
+    }
+/* * * * * * * * * * * * * * * * * * * * * *  *
+*  Le résultat de recherche des hébérgement   *
+* * * * * * * * * * * * * * * * * * * * * * * */
+    .hosting-results{
+        width: 100%;
+    }
+    .hosting-card-body, .popular-hosting-card{
+        width: 80%;
+    }
+    .hosting-card-title{
+        font-size: 1.1em;
+    }
+    .hosting-card-text{
+        font-size: 1em;
+    }
+    .hosting-card-stars{
+        font-size: 1.2em;
+    }
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  Le résultat de recherche des hébérgements les plus populaires   *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  */
+    .popular-hostings{
+        margin-bottom: 2em;
+        align-items: center;
+        width: 100%;
+    }
+    .popular-hosting-card{
+        margin-bottom: 1.5em;
+        height: 100%;
+    }
+    .flex-row{
+        margin-bottom: 2em;
+        align-self: stretch;
+    }
+    .popular-hosting-title{
+        font-size: 1.3em;
+
+    }
+    .popular-hosting-card-illustration{
+        justify-content: space-around;
+    }
+    
+}
+@media screen and (max-width: 424px){
+    .popular-hosting-card-img{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 359px){
+    .popular-hosting-card-img{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 322px){
+    .popular-hosting-card-img{
+        width: 25%;
+    }
+}

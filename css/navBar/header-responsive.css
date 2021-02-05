@@ -1,0 +1,59 @@
+/**********************************************************
+************************************************************
+*                                                          *
+*                 Header Responsive                        *
+*                                                          *
+************************************************************
+***********************************************************/
+@media screen and (max-width: 600px)
+{
+    .navbar{
+        flex-direction: column;
+        /* border-bottom: 2px solid #c9c9c9; */
+    }
+    .navbar-brand{
+        width: 6em;
+    }
+    .navbar-nav{
+        position: relative;
+    }
+    .nav-menu{ 
+        /* border: 1px solid red; */
+        padding-left: 0;
+        padding-top: 1.3em;
+        width: 100%;
+    }
+    .btn-outline{
+        position: absolute;
+        bottom: 3.5em;
+        right: 0;
+    }
+}
+@media screen and (max-width: 390px)
+{
+    .nav-menu{
+        font-size: 1em;
+    }
+    .navbar-brand{
+        width: 5em;
+    }
+    
+    .btn-outline{
+        font-size: 0.96em;
+        bottom: 3.6em;
+    }
+}
+@media screen and (max-width: 330px)
+{
+    .nav-menu{
+        font-size: 1em;
+    }
+    .navbar-brand{
+        width: 4em;
+    }
+    
+    .btn-outline{
+        font-size: 0.8em;
+        bottom: 4.3em;
+    }
+}

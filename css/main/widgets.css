@@ -2,78 +2,83 @@
 .spacePadding{
     padding: 0 2em 0 2em;
 }
-.heading{
+.search-widgets{
     margin-bottom: 2.2em;
 }
-.heading__h1{
+.search-widgets-h1{
     font-size: 2.5em;
     font-weight: bolder;
 }
-
-.heading__form{
-    border: 1px solid #c9c9c9;
+.search-widgets-h5{
+    margin-bottom: 1.5em;
+}
+.form-row{
+    display: inline-block;
+    border: 0.1px solid #c9c9c9;
     background-color: #F2F2F2;
-    display: inline-block;
     border-radius: 20px;
-    margin-top: 1em;
 }
-
-.heading__form--padding{
-    padding: 1.3em 0 1.3em 0;
+.form-input{
+    padding-top: 1.5em;
+    padding-bottom: 1.3em;
     border: none;
-    outline: 0;
-    font-size: 1.1em;
 }
-
-.heading__form__searchField {
-    padding-left: 3em;
+.form-input::placeholder{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bolder;
 }
-
-.heading__form__submit{
-    display: inline-block;
-    width: 10em;
-    background-color: #0065FC; 
+.form-label{
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+}
+.form-map-icone{
+    font-size: larger;
+}
+.form-btn-submit{
+    display: none;
+}
+.form-submit{
+    background-color: #0065FC;
+    font-weight: bolder;
     color: #FFF;
     border-radius: 0 20px 20px 0;
     cursor: pointer;
+    padding: 1.7em 1.6em 1.3em 1.6em;
+    border: none; 
 }
 
-.heading__form__searchField--placeholder::placeholder{
-    font-size: 1.1em;
-    font-weight: bolder;
-}
-.map{
-    margin-left: 0.8em;
-}
-.heading__form--mapMarker{
-    display: inline-block;
-    width: 0em;
-    border-radius: 20px 0 0 20px;
-    cursor: pointer;
-    font-size: 1.5em;
-    padding-right: 2.6em;
-}
-
-/*************************************************************/
-.filter{
+/*********************************Système de filtrage****************************/
+.filter-widgets{
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 2.5em;
 }
-.filter__h2{
+.filter-widgets-h2{
     font-size: 2em;
     font-weight: bolder;
     padding-top: 0.1em;
 }
+.filter-widgets-btns{
+    display: flex;
+    flex-wrap: wrap;
 
-.filter-btn{
+}
+.filter-widgets-btn{
     border: 1.9px solid #c9c9c9;
+    transition-property: background-color;
+    transition-duration: 0.5s;
     border-radius: 30px;
     position: relative;
     width: 17em;
     height: 4em;
     margin-left: 1.7em;
+    margin-bottom: 1em;
 }
-.filter__btn--icone{
+.filter-widgets-btn:hover{
+    background-color: #E7EFFC;
+}
+.filter-widgets-icone-bg{
     background-color: #DEEBFF;
     border-radius: 30px;
     width: 60px;
@@ -85,36 +90,36 @@
     left: -0.1em;
     cursor: pointer;
 }
-.filter__btn--iconeCenter{
+.filter-widgets-icone{
     padding-top: 0.9em;
     color: #0065FC;
 }
-.filter__btn--text{
+.filter-widgets-btn-text{
     position: absolute;
     top: -0.5em;
     right: 1.5em;
     font-size: larger;
     font-weight: bold;
 }
-.filter__btn--text1{
+.filter-widgets-btn-text1{
     top: -0.5em;
     right: 2.8em;
 }
-.filter__btn--text2{
+.filter-widgets-btn-text2{
     top: -0.5em;
     right: 4.8em;
 }
-.filter__btn--text3{
+.filter-widgets-btn-text3{
     top: -0.5em;
     right: 3em;
 }
 /*********************************************************/
 
-.NombreResultat{
+.result-number{
     display: flex;
     position: relative;
 }
-.NombreResultat__icone{
+.result-number-icone{
     height: 35px;
     width: 35px;
     border-radius: 30px;
@@ -124,7 +129,7 @@
     text-align: center;
 
 }
-.NombreResultat__text{
+.result-number-text{
     position: absolute;
     font-size: 1.2em;
     font-weight: bold;
