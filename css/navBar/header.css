@@ -14,6 +14,17 @@
     justify-content: space-between;
     padding-top: 2em;
     padding-bottom: 2em;
+    position: relative;
+}
+.barre{
+    width: 170px;
+    height: 2px;
+    background-color: #0065FC;
+    position: absolute;
+    top: 0;
+    right: 15em;
+    transition-property: width, right;
+    transition-duration: 0.5s;
 }
 
 .navbar-brand{
@@ -45,6 +56,10 @@
 }
 .nav-menu-item-link-active{
     color: #0065FC;
+}
+.nav-menu-item-barre-active:hover > .barre{
+    width: 300px;
+    right: 7.95em;
 }
 .btn-outline{
     display: block;

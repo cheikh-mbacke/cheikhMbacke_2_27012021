@@ -28,6 +28,31 @@
         bottom: 3.5em;
         right: 0;
     }
+    .barre-responsive{
+        position: absolute;
+        width: 100%;
+        right: 0;
+        height: 2px;
+        background-color: #F2F2F2;
+    }
+    .barre{
+        width: 200px;
+        top: 4.7em;
+        left: 0;
+        z-index: 1;
+    }
+    .nav-menu-item-barre-active:hover > .barre{
+        width: 100%;
+        right: 7.95em;
+    }
+    .navbar{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    position: relative;
+    }
 }
 @media screen and (max-width: 390px)
 {
@@ -41,6 +66,10 @@
     .btn-outline{
         font-size: 0.96em;
         bottom: 3.6em;
+    }
+    .barre{
+        width: 150px;
+        top: 5.2em;
     }
 }
 @media screen and (max-width: 330px)
