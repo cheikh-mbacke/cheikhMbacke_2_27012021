@@ -9,6 +9,7 @@
 {
     .navbar{
         flex-direction: column;
+        margin-bottom: 2em;
         /* border-bottom: 2px solid #c9c9c9; */
     }
     .navbar-brand{
@@ -37,13 +38,25 @@
     }
     .barre{
         width: 200px;
-        top: 4.7em;
+        top: 6.25em;
         left: 0;
         z-index: 1;
+    }
+    /* .barre-desabled{
+        display: none;
+    } */
+    .barre-replaced{
+        width: 270px;
+        height: 2px;
+        background-color: #0065FC;
+        position: absolute;
+        transition-property: width, right;
+        transition-duration: 0.5s
     }
     .nav-menu-item-barre-active:hover > .barre{
         width: 100%;
         right: 7.95em;
+        border-bottom: 0.5px solid #0065FC;
     }
     .navbar{
     /* border: 1px solid red; */
@@ -69,7 +82,11 @@
     }
     .barre{
         width: 150px;
-        top: 5.2em;
+        top: 7.15em;
+        border-bottom: 1px solid #0065FC;
+    }
+    .barre-replaced{
+        width: 45px;
     }
 }
 @media screen and (max-width: 330px)
